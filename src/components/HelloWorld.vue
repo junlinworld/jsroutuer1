@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <span>通过query传来的参数：{{this.$route.query.password}}</span>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
